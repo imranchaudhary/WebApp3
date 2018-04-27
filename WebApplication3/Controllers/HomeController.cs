@@ -18,6 +18,7 @@ namespace WebApplication3.Controllers
         {
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
+
         }
     }
 }
